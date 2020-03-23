@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ACM CHALLENGE 2</string>
+    <string name="hemant_s_activity">Hemant\'s Activity</string>
+    <string name="dinesh_s_activity">Dinesh\'s Activity</string>
+    <string name="dhanesh_s_activity">Dhanesh\'s Activity</string>
+    <string name="amit_krishna_s_activity">Amit Krishna\'s Activity</string>
+    <string name="amit_agarwal_s_activity">Amit Agarwal\'s Activity</string>
+    <string name="niyantha_s_activity">Niyantha\'s Activity</string>
+    <string name="shreyash_s_activity">Shreyash\'s Activity</string>
+    <string name="firebase_challenge">FIREBASE CHALLENGE</string>
+    <string name="example_activity">Example Activity</string>
+    <string name="create_a_user">Create a User</string>
+    <string name="id">Id</string>
+    <string name="enter_the_user_s_id">Enter the User\'s Id</string>
+    <string name="name">Name</string>
+    <string name="add_user_s_name">Add User\'s Name</string>
+    <string name="age">Age</string>
+    <string name="enter_the_age">Enter the Age</string>
+    <string name="email_id">Email Id</string>
+    <string name="post_user_details">Post User Details</string>
+    <string name="enter_the_user_s_email">Enter the User\'s Email</string>
+</resources>

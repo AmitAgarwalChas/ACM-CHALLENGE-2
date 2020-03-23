@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="37dp"
+            android:layout_margin="16dp"
+            android:text="@string/create_a_user"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/id" />
+
+        <EditText
+            android:id="@+id/edt1"
+            tools:layout_editor_absoluteX="23dp"
+            android:layout_width="305dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/enter_the_user_s_id" />
+
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/name" />
+
+
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="305dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/add_user_s_name" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/age" />
+
+        <EditText
+            android:id="@+id/edt3"
+            android:layout_width="305dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/enter_the_age" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/email_id" />
+
+        <EditText
+            android:id="@+id/edt5"
+            android:layout_width="305dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/enter_the_user_s_email" />
+
+        <Button
+            android:id="@+id/post"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="@string/post_user_details"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</ScrollView>

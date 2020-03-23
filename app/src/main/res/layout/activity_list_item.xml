@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ListItem"
+    android:background="#A1FFE5"
+    android:id="@+id/item_layout">
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="15dp"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="8dp"
+        card_view:cardBackgroundColor="#e5a1ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="AMIT AGARWAL"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:id="@+id/text_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="30dp"
+                android:text="18 yrs"
+                android:textSize="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"/>
+            <ImageView
+                android:id="@+id/icon_mail"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/mail"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" />
+            <TextView
+                android:id="@+id/text_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:paddingStart="10dp"
+                android:text="amit@acm"
+                android:textSize="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/icon_mail"/>
+            <TextView
+                android:id="@+id/text_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="5468794512"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"/>
+            <ImageView
+                android:id="@+id/icon_phone"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="110dp"
+                android:background="@drawable/call"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
